@@ -14,8 +14,8 @@ While the class focused on functionality, I had learnt few concepts that help in
 - Explored the <utility> header and std::move to handle string transfers efficiently, reducing uneccesary memory overhead.
 
 ## Tech Stack
-Language: C++
-Paradigm: Object-Oriented Programming (OOP)
-Styling: ANSI Escape Sequences
+-Language: C++
+- Paradigm: Object-Oriented Programming (OOP)
+- Styling: ANSI Escape Sequences
 
 **⚠️ NOTE:  This is an educational project designed to showcase how OOP is an integral part of C++ coding. It serves as a practical study on how encapsulation and constructors protect code integrity, with a touch of creativity.**
