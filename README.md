@@ -1,4 +1,4 @@
-A c++ implementation of a library management system, exploring topics of encapsulation and constructors in OOP
+A C++ implementation of a library management system, exploring topics of encapsulation and constructors in OOP
 
 # 📚 Library Management System (C++ OOP)
 A simple program created for my **Introduction to Object-Oriented Programming** class. This project explores the fundamentals of data integrity through encapsulation and efficient object initialization.
