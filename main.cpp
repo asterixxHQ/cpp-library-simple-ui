@@ -4,13 +4,13 @@
 
 using namespace std;
 
-class LibraryBook {
+class Book {
 private:
     string bookTitle;
     int totalCopies;
 
 public:
-    LibraryBook(string title, int copies)
+    Book(string title, int copies)
         : bookTitle(std::move(title)), totalCopies(copies >= 0 ? copies : 0) {}
 
     void issueBook() {
@@ -36,15 +36,15 @@ public:
 };
 
 int main() {
-    LibraryBook myBook("The Design of Everyday Things", 1);
+    Book book("The Design of Everyday Things", 1);
 
-    myBook.display();
+    book.display();
 
-    myBook.issueBook();
-    myBook.issueBook();
+    book.issueBook();
+    book.issueBook();
 
-    myBook.returnBook();
-    myBook.display();
+    book.returnBook();
+    book.display();
 
     return 0;
 }
