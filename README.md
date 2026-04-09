@@ -1,21 +1,21 @@
-A C++ implementation of a library management system, exploring topics of encapsulation and constructors in OOP
+Implementation of C++ for a library management system that explores topics of encapsulation and constructors in OOP
 
 # 📚 Library Management System (C++ OOP)
-A simple program created for my **Introduction to Object-Oriented Programming** class. This project explores the fundamentals of data integrity through encapsulation and efficient object initialization.
+This program is a simple code done during my **Introduction to Object-Oriented Programming** class. This project applies topics of encapsulation and object initialization for data integrity.
 
 ## Logic behind the code
-- *Encapsulation*: Data members (bookTitle, totalCopies) are under private. This ensures these members can only be modified through controlled methods, preventing unauthorized changes of data.
-- *Constructors*: Utilizes Member Initializer Lists — this helps in initializing members directly, ensuring a clean performance and clear object setup.
-- *Error Handling*: Integrated logic in issueBook() to handle "Out of Stock" scenarios, providing immediate feedback from the end-user perspective.
+- *Encapsulation*: Data members like (bookTitle, totalCopies) are under private classes to makes sure that the members can only be modified through controlled methods so that it avoids unauthorized changes to the data stored previously.
+- *Constructors*: It uses Member Initializer Lists which helps in initializing members directly, so that it has a clean performance and proper object setup.
+- *Error Handling*: I added a logic in issueBook() to handle the "Out of Stock" scenarios to give immediate feedbacks from the perspective of an end-user.
 
 ## Beyond the Syllabus
-While the class focused on functionality, I had learnt few concepts that help in end-user usage:
-- ANSI Terminal Styling: Used escape codes to make the output look more styled. Used "033[32m" for the title of Library Status, and "033[1m" to bolden the footer.
-- Explored the <utility> header and std::move to handle string transfers efficiently, reducing uneccesary memory overhead.
+My class focused on functionality, though I wanted to know if C++ has design related topics to which I learnt few concepts that help in end-user perspective:
+- ANSI Terminal Styling: escape codes that make the output look more designed - used "033[32m" for the title of Library Status, and "033[1m" to bolden the footer.
+- Learnt <utility> header and std::move to handle string transfers more smoothly to reduce uneccessary memory overhead.
 
 ## Tech Stack
-- Language: C++
+- Language : C++
 - Paradigm: Object-Oriented Programming (OOP)
-- Styling: ANSI Escape Sequences
+- UI design: ANSI Escape Sequences
 
-**⚠️ NOTE:  This is an educational project designed to showcase how OOP is an integral part of C++ coding. It serves as a practical study on how encapsulation and constructors protect code integrity, with a touch of creativity.**
+**⚠️ NOTE:  This project is an education program to show why OOP is an integral part of C++ coding and how encapsulation and constructors protect code integrity, along with designs to boost user interface.**
